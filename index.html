@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Favorite music</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://unpkg.com/feather-icons"></script>
+  </head>
+  <body>
+    <div class="box-music">
+      <img src="foto.jpg" alt="this" />
+      <h3>fragmen kerinduan</h3>
+      <p>mizan feat asrul</p>
+      <hr />
+      <audio id="audio" src="fragmen kerinduan.mp3"></audio>
+      <div class="play-music">
+        <a href="https://www.instagram.com/mizanbaktiaji/"
+          ><i data-feather="skip-back"></i
+        ></a>
+        <a id="play" href="#"><i data-feather="play"></i></a>
+        <a id="pause" href="#" style="display: none"
+          ><i data-feather="pause"></i
+        ></a>
+        <a href="https://www.instagram.com/rambugendut3/"
+          ><i data-feather="skip-forward"></i
+        ></a>
+      </div>
+    </div>
+    <script>
+      feather.replace();
+    </script>
+    <script src="script.js"></script>
+  </body>
+</html>
